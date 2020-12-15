@@ -14,10 +14,10 @@ using std::cin;
 using std::cout;
 
 int main() {
-  int firstInteger;
-  int secondInteger;
+  double firstInteger;
+  double secondInteger;
   int operation;
-  int finalValue = 0;
+  double finalValue = 0;
 
   cout << "This Program will prompt for two integers and an operation and then "
     "display the result of applying the operation to the numbers\n";
