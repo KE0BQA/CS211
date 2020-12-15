@@ -54,7 +54,7 @@ void encrypt(char a[], int size) {
         a[i] += shift;
       }
       else {
-        a[i] -= 22;
+        a[i] -= (26-shift);
       }
     }
   }
@@ -67,7 +67,7 @@ void decrypt(char a[], int size) {
         a[i] -= shift;
       }
       else {
-        a[i] += 22;
+        a[i] += (26-shift);
       }
     }
   }
